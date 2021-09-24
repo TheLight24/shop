@@ -1,0 +1,147 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+h1{
+  color: purple ;
+  border-radius: 4px
+}
+hr{
+  color: #8A2BE2 ;
+
+  border: 5px purple solid;
+  border-radius: 4px
+}
+.menu{
+  width:200px;
+  height: 1000px;
+  background-color:purple ;
+  border-radius: 10px;
+  position: fixed;
+  top: 0
+}
+.menu a{
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.content{
+  margin-left: 400px;
+  width: 820px;
+
+}
+.showcase img{
+  width: 298px;
+  border-radius: 10px;
+  opacity: 0.6
+}
+.showcase img:hover{
+  opacity: 1
+}
+.showcase img:active{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+.dsigner img{
+  border-radius: 20px;
+  width: 270px
+}
+.dsigner{
+  display: inline-block;
+
+}
+.dsigner h2{
+  font-weight: bold;
+}
+.des{
+  background-color: gray;
+  border-radius: 5px;
+}
+.tarif_Basic{
+width: 400px;
+background-color: #f1f1f1;
+display: inline-block;
+}
+.tarif_Basic h2{
+  background-color: purple;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  /* height: 50px; */
+  padding: 35px;
+  font-size: 43px
+}
+.tarif_Basic p{
+  text-align: center;
+ border-bottom: black solid 1px;
+ border-radius:4px;
+ margin-top: 2px;
+ font-size: 30px;
+ padding-bottom: 10px;
+
+}
+.tarif_Basic h3{
+  border-radius: 14px;
+  background-color: white;
+  text-align: center;
+   width: 150px;
+   margin: 0 auto;
+}
+.tarif_Basic h3:hover{
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+.tarif_pro{
+width: 400px;
+background-color: #f1f1f1;
+display: inline-block;
+}
+.tarif_pro h2{
+  background-color: red;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  /* height: 50px; */
+  padding: 35px;
+  font-size: 43px
+}
+.tarif_pro p{
+  text-align: center;
+ border-bottom: black solid 1px;
+ border-radius:4px;
+ margin-top: 2px;
+ font-size: 30px;
+ padding-bottom: 10px;
+
+}
+.tarif_pro h3{
+  border-radius: 14px;
+  background-color: white;
+  text-align: center;
+   width: 150px;
+   margin: 0 auto;
+}
+.tarif_pro h3:hover{
+  background-color: red;
+  color: white;
+  cursor: pointer;
+ }
+ .feedback input{
+   width: 100%;
+  height: 35px;
+  margin-top: 5px;
+ }
+.feedback button{
+  width: 100%;
+  margin-top: 5px;
+  margin-left: 3px;
+ color:white;
+ background-color:purple ;
+ border-radius: 5px;
+}
